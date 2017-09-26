@@ -1,5 +1,4 @@
 name: Cache Tools Utility
 type: module
 description: 'Provides drush commands to purge persistent cache objects.'
-package: Conagra
 core: 8.x
