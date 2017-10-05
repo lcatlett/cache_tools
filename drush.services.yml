@@ -1,0 +1,5 @@
+services:
+  cache_tools.commands:
+    class: \Drupal\cache_tools\Commands\CacheToolsCommands
+    tags:
+      - { name: drush.command }
