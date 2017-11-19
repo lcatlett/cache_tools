@@ -12,8 +12,9 @@ function cache_tools_drush_command() {
   return [
     'cache-tools-purge' => [
       'description' => dt('Purges data from persistent cache tables.'),
+      'aliases' => ['cache-nuke'],
     ],
-    'aliases' => ['cache-nuke'],
+ 
   ];
 }
 
