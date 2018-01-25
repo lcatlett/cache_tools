@@ -9,9 +9,7 @@ Once added to your project codebase, run `drush cc drush` to ensure the provided
 
 ## cache_tools.drush.inc  
 
-persistent storage of cache ojects due to the core default for bins being CACHE_PERMANENT. This allows for easily truncating these objects since they are set to never expire.
-
-persistent storage of cache ojects due to the core default for bins being CACHE_PERMANENT. This allows for easily truncating these objects since they are set to never expire.. If you're using a database based cache backend and seeing issues like WSOD after a code iupdate, missing configuration, changes to views, updating plugins, or applying entity updates, this utility can be used to remove stale data and discovery objects.  
+If you're using a database based cache backend and seeing issues caches not appearing to clear, WSOD after a code update, missing configuration after code deployments, changes to views, updating plugins, or applying entity updates, this utility can be used to remove stale data and discovery objects.  
 
 Note that 'purging' in this case doesn't mean deleting configuration values but rather scrubbing a datebase for deploying new code. 
 
