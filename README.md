@@ -28,7 +28,7 @@ Prepare sites using translation revisioning in content editing and migration for
 
 ### Usage
 
-Run `drush m2cm-migrate` or `drush cache-nuke` to truncate cache object data not cleared by `drush cr`.    
+Run `drush m2cm-migrate` to purge all problematic cache bins, remove scheduled update and other configuration that may cause conflicts in updating core or migrating to Content Moderation, and run needed database cleanup tasks. 
 
 
 
